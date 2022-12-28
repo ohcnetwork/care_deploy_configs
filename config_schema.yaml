@@ -1,0 +1,56 @@
+$schema: http://json-schema.org/draft-07/schema#
+title: Deploy Config
+type: object
+
+required:
+  - dashboard_url
+  - github_url
+  - static
+  - keys
+  - kasp
+
+properties:
+  dashboard_url:
+    type: string
+
+  github_url:
+    type: string
+
+  static:
+    type: object
+    required:
+      - header_logo
+      - light_logo
+      - black_logo
+    properties:
+      header_logo:
+        type: string
+      light_logo:
+        type: string
+      black_logo:
+        type: string
+
+  keys:
+    type: object
+    required:
+      - gmaps_api_key
+      - recaptcha_site_key
+    properties:
+      gmaps_api_key:
+        type: string
+      recaptcha_site_key:
+        type: string
+
+  kasp:
+    type: object
+    required:
+      - enabled
+      - string
+      - full_string
+    properties:
+      enabled:
+        type: boolean
+      string:
+        type: string
+      full_string:
+        type: string

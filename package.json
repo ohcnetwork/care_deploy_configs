@@ -2,6 +2,7 @@
   "name": "care_deploy_configs",
   "version": "1.0.0",
   "description": "Deploy configurations of CARE",
+  "type": "module",
   "scripts": {
     "test": "mocha tests"
   },
@@ -20,5 +21,8 @@
     "chai-json-schema": "^1.5.1",
     "mocha": "^10.2.0",
     "strip-json-comments": "^5.0.0"
+  },
+  "dependencies": {
+    "yaml": "^2.2.0"
   }
 }

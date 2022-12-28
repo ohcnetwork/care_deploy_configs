@@ -11,7 +11,7 @@
         "recaptcha_site_key": "6LdvxuQUAAAAADDWVflgBqyHGfq-xmvNJaToM0pN"
     },
     "kasp": {
-        "enabled": "false",
+        "enabled": false,
         "string": "KASP",
         "full_string": "Karunya Arogya Suraksha Padhathi"
     }
