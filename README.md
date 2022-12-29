@@ -1,5 +1,8 @@
 # Deploy Configurations of CARE
+
 _This repository stores the configurations for various deployments of CARE._
+
+[![Validate Configurations](https://github.com/coronasafe/care_deploy_configs/actions/workflows/test.yaml/badge.svg)](https://github.com/coronasafe/care_deploy_configs/actions/workflows/test.yaml)
 
 ## ⚙️ How it works?
 
