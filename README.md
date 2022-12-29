@@ -14,12 +14,18 @@ All configurations follow a specific schema as defined in the [`config-schema.ya
 The [Validate Configurations](https://github.com/coronasafe/care_deploy_configs/actions/workflows/test.yaml) workflow attempts to validate all configurations (JSON files)
 present inside the `configs/` directory.
 
-## ☑️ Checklist for adding a new key to the configurations
+## ☑️ Checklist for adding a new key to existing deployments configurations
 Let's say a new key `EXAMPLE_KEY` is to be introduced to the configurations.
 1. Update the `config-schema.yaml` for the validation workflow to pass when the new key is present.
 2. Define the `EXAMPLE_KEY` for all configurations present inside the `configs/` directory.
 3. Run `npm test` to validate the new configurations.
 4. Update the [`IConfig`](https://github.com/coronasafe/care_fe/blob/develop/src/Common/hooks/useConfig.ts) interface in coronasafe/care_fe repo to match the new configurations schema.
+
+## ☑️ Checklist for adding a configuration for a new deployment
+Let's say a new deployment `example-deployment` is to be added.
+1. Create a copy of an existing configuration and rename it to `example-deployment.json` in the `configs/` directory.
+2. Update the configurations to match the specifics of the deployment.
+3. Run `npm test` to validate the new configuration.
 
 ## Why this approach? 🤔
 
