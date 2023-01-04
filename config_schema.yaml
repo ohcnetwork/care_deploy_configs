@@ -5,9 +5,14 @@ type: object
 required:
   - dashboard_url
   - github_url
-  - static
-  - keys
-  - kasp
+  - static_header_logo
+  - static_light_logo
+  - static_black_logo
+  - gmaps_api_key
+  - recaptcha_site_key
+  - kasp_enabled
+  - kasp_string
+  - kasp_full_string
 
 properties:
   dashboard_url:
@@ -16,41 +21,29 @@ properties:
   github_url:
     type: string
 
-  static:
-    type: object
-    required:
-      - header_logo
-      - light_logo
-      - black_logo
-    properties:
-      header_logo:
-        type: string
-      light_logo:
-        type: string
-      black_logo:
-        type: string
+  static_header_logo:
+    type: string
 
-  keys:
-    type: object
-    required:
-      - gmaps_api_key
-      - recaptcha_site_key
-    properties:
-      gmaps_api_key:
-        type: string
-      recaptcha_site_key:
-        type: string
+  static_light_logo:
+    type: string
 
-  kasp:
-    type: object
-    required:
-      - enabled
-      - string
-      - full_string
-    properties:
-      enabled:
-        type: boolean
-      string:
-        type: string
-      full_string:
-        type: string
+  static_black_logo:
+    type: string
+
+  gmaps_api_key:
+    type: string
+
+  recaptcha_site_key:
+    type: string
+
+  kasp_enabled:
+    type: boolean
+
+  kasp_string:
+    type: string
+
+  kasp_full_string:
+    type: string
+
+  state_logo:
+    type: string
