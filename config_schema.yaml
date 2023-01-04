@@ -44,3 +44,6 @@ properties:
 
   kasp_full_string:
     type: string
+
+  state_logo:
+    type: string

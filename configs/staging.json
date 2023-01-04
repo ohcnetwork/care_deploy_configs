@@ -8,5 +8,6 @@
     "recaptcha_site_key": "6LdvxuQUAAAAADDWVflgBqyHGfq-xmvNJaToM0pN",
     "kasp_enabled": false,
     "kasp_string": "KASP",
-    "kasp_full_string": "Karunya Arogya Suraksha Padhathi"
+    "kasp_full_string": "Karunya Arogya Suraksha Padhathi",
+    "state_logo": "https://digitalpublicgoods.net/wp-content/themes/dpga/images/logo.svg"
 }
