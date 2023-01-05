@@ -16,13 +16,13 @@
     "url": "https://github.com/coronasafe/care_deploy_configs/issues"
   },
   "homepage": "https://github.com/coronasafe/care_deploy_configs#readme",
+  "precommit": "test",
   "devDependencies": {
     "chai": "^4.3.7",
     "chai-json-schema": "^1.5.1",
     "mocha": "^10.2.0",
-    "strip-json-comments": "^5.0.0"
-  },
-  "dependencies": {
-    "yaml": "^2.2.0"
+    "pre-commit": "^1.2.2",
+    "strip-json-comments": "^5.0.0",
+    "yaml": "^2.2.1"
   }
 }

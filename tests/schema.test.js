@@ -21,7 +21,7 @@ configsInDir.forEach((file) => {
   const text = fs.readFileSync(CONFIG_DIR + "/" + file).toString();
   const data = JSON.parse(stripJsonComments(text));
 
-  describe(`Validate config: ${file}`, function () {
+  describe(`Validate '${file}'`, function () {
     it("should be properly validated by the json schema", function () {
       expect(data).to.be.jsonSchema(schema);
     });
