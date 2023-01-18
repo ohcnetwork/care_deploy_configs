@@ -51,3 +51,6 @@ properties:
 
   state_logo:
     type: string
+
+  state_logo_white:
+    type: boolean
