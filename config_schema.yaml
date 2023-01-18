@@ -9,6 +9,7 @@ required:
   - static_light_logo
   - static_black_logo
   - gmaps_api_key
+  - gov_data_api_key
   - recaptcha_site_key
   - kasp_enabled
   - kasp_string
@@ -31,6 +32,9 @@ properties:
     type: string
 
   gmaps_api_key:
+    type: string
+
+  gov_data_api_key:
     type: string
 
   recaptcha_site_key:
