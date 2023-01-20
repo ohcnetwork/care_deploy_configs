@@ -31,6 +31,9 @@ properties:
   static_black_logo:
     type: string
 
+  static_dpg_white_logo:
+    type: string
+
   gmaps_api_key:
     type: string
 
