@@ -16,6 +16,7 @@ required:
   - kasp_enabled
   - kasp_string
   - kasp_full_string
+  - asset_import_sample_format
 
 properties:
   dashboard_url:
@@ -65,3 +66,6 @@ properties:
 
   state_logo_white:
     type: boolean
+
+  asset_import_sample_format:
+    type: string
