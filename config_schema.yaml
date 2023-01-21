@@ -7,7 +7,6 @@ required:
   - github_url
   - coronasafe_url
   - dpg_url
-  - app_loader_image
   - static_header_logo
   - static_light_logo
   - static_black_logo
@@ -33,9 +32,6 @@ properties:
     type: string
 
   dpg_url:
-    type: string
-
-  app_loader_image:
     type: string
 
   static_header_logo:
