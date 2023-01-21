@@ -24,6 +24,9 @@ properties:
   github_url:
     type: string
 
+  coronasafe_url:
+    type: string
+
   static_header_logo:
     type: string
 
