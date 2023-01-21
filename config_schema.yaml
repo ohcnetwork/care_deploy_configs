@@ -6,6 +6,7 @@ required:
   - dashboard_url
   - github_url
   - coronasafe_url
+  - dpg_url
   - app_loader_image
   - static_header_logo
   - static_light_logo
@@ -29,6 +30,9 @@ properties:
     type: string
 
   coronasafe_url:
+    type: string
+
+  dpg_url:
     type: string
 
   app_loader_image:
