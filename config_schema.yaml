@@ -5,6 +5,8 @@ type: object
 required:
   - dashboard_url
   - github_url
+  - coronasafe_url
+  - app_loader_image
   - static_header_logo
   - static_light_logo
   - static_black_logo
@@ -16,7 +18,7 @@ required:
   - kasp_enabled
   - kasp_string
   - kasp_full_string
-  - asset_import_sample_format
+  - sample_format_asset_import
 
 properties:
   dashboard_url:
@@ -26,6 +28,9 @@ properties:
     type: string
 
   coronasafe_url:
+    type: string
+
+  app_loader_image:
     type: string
 
   static_header_logo:
@@ -67,5 +72,8 @@ properties:
   state_logo_white:
     type: boolean
 
-  asset_import_sample_format:
+  sample_format_asset_import:
+    type: string
+
+  sample_format_external_result:
     type: string
