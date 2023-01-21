@@ -19,6 +19,7 @@ required:
   - kasp_string
   - kasp_full_string
   - sample_format_asset_import
+  - sample_format_external_result_import
 
 properties:
   dashboard_url:
@@ -75,5 +76,5 @@ properties:
   sample_format_asset_import:
     type: string
 
-  sample_format_external_result:
+  sample_format_external_result_import:
     type: string
