@@ -5,21 +5,33 @@ type: object
 required:
   - dashboard_url
   - github_url
+  - coronasafe_url
+  - dpg_url
   - static_header_logo
   - static_light_logo
   - static_black_logo
+  - static_dpg_white_logo
+  - static_coronasafe_logo
   - gmaps_api_key
   - gov_data_api_key
   - recaptcha_site_key
   - kasp_enabled
   - kasp_string
   - kasp_full_string
+  - sample_format_asset_import
+  - sample_format_external_result_import
 
 properties:
   dashboard_url:
     type: string
 
   github_url:
+    type: string
+
+  coronasafe_url:
+    type: string
+
+  dpg_url:
     type: string
 
   static_header_logo:
@@ -29,6 +41,12 @@ properties:
     type: string
 
   static_black_logo:
+    type: string
+
+  static_dpg_white_logo:
+    type: string
+
+  static_coronasafe_logo:
     type: string
 
   gmaps_api_key:
@@ -54,3 +72,9 @@ properties:
 
   state_logo_white:
     type: boolean
+
+  sample_format_asset_import:
+    type: string
+
+  sample_format_external_result_import:
+    type: string
