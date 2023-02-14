@@ -15,6 +15,8 @@ required:
   - gmaps_api_key
   - gov_data_api_key
   - recaptcha_site_key
+  - sentry_dsn
+  - sentry_environment
   - kasp_enabled
   - kasp_string
   - kasp_full_string
@@ -56,6 +58,12 @@ properties:
     type: string
 
   recaptcha_site_key:
+    type: string
+
+  sentry_dsn:
+    type: string
+
+  sentry_environment:
     type: string
 
   kasp_enabled:
