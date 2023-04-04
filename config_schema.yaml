@@ -6,6 +6,8 @@ required:
   - dashboard_url
   - github_url
   - coronasafe_url
+  - site_url
+  - analytics_server_url
   - dpg_url
   - static_header_logo
   - static_light_logo
@@ -31,6 +33,12 @@ properties:
     type: string
 
   coronasafe_url:
+    type: string
+
+  site_url:
+    type: string
+
+  analytics_server_url:
     type: string
 
   dpg_url:
@@ -86,3 +94,6 @@ properties:
 
   sample_format_external_result_import:
     type: string
+
+  enable_hcx:
+    type: boolean
