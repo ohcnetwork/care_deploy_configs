@@ -13,7 +13,7 @@ required:
   - static_light_logo
   - static_black_logo
   - static_ohc_light_logo
-  - static ohc_green_logo
+  - static_ohc_green_logo
   - static_dpg_white_logo
   - gmaps_api_key
   - gov_data_api_key
