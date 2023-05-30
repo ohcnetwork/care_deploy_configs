@@ -12,6 +12,8 @@ required:
   - static_header_logo
   - static_light_logo
   - static_black_logo
+  - static_ohc_light_logo
+  - static ohc_green_logo
   - static_dpg_white_logo
   - static_coronasafe_logo
   - gmaps_api_key
@@ -51,6 +53,12 @@ properties:
     type: string
 
   static_black_logo:
+    type: string
+
+  static_ohc_light_logo:
+    type: string
+
+  static_ohc_green_logo:
     type: string
 
   static_dpg_white_logo:
