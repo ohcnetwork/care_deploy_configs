@@ -15,7 +15,6 @@ required:
   - static_ohc_light_logo
   - static ohc_green_logo
   - static_dpg_white_logo
-  - static_coronasafe_logo
   - gmaps_api_key
   - gov_data_api_key
   - recaptcha_site_key
@@ -62,9 +61,6 @@ properties:
     type: string
 
   static_dpg_white_logo:
-    type: string
-
-  static_coronasafe_logo:
     type: string
 
   gmaps_api_key:
