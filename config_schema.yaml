@@ -8,13 +8,8 @@ required:
   - coronasafe_url
   - site_url
   - analytics_server_url
-  - dpg_url
-  - static_header_logo
-  - static_light_logo
-  - static_black_logo
-  - static_ohc_light_logo
-  - static_ohc_green_logo
-  - static_dpg_white_logo
+  - header_logo
+  - main_logo
   - gmaps_api_key
   - gov_data_api_key
   - recaptcha_site_key
@@ -25,6 +20,7 @@ required:
   - kasp_full_string
   - sample_format_asset_import
   - sample_format_external_result_import
+  - enable_hcx
 
 properties:
   dashboard_url:
@@ -42,26 +38,27 @@ properties:
   analytics_server_url:
     type: string
 
-  dpg_url:
-    type: string
+  header_logo:
+    type: object
+    required:
+      - light
+      - dark
+    properties:
+      light:
+        type: string
+      dark:
+        type: string
 
-  static_header_logo:
-    type: string
-
-  static_light_logo:
-    type: string
-
-  static_black_logo:
-    type: string
-
-  static_ohc_light_logo:
-    type: string
-
-  static_ohc_green_logo:
-    type: string
-
-  static_dpg_white_logo:
-    type: string
+  main_logo:
+    type: object
+    required:
+      - light
+      - dark
+    properties:
+      light:
+        type: string
+      dark:
+        type: string
 
   gmaps_api_key:
     type: string
@@ -86,12 +83,6 @@ properties:
 
   kasp_full_string:
     type: string
-
-  state_logo:
-    type: string
-
-  state_logo_white:
-    type: boolean
 
   sample_format_asset_import:
     type: string
