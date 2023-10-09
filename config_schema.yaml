@@ -21,7 +21,6 @@ required:
   - sample_format_asset_import
   - sample_format_external_result_import
   - enable_hcx
-  - jwt_token_refresh_interval
 
 properties:
   dashboard_url:
