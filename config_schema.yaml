@@ -92,3 +92,7 @@ properties:
 
   enable_hcx:
     type: boolean
+
+  jwt_token_refresh_interval:
+    type: integer
+  
