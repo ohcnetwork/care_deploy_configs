@@ -3,7 +3,6 @@ title: Deploy Config
 type: object
 
 required:
-  - dashboard_url
   - github_url
   - coronasafe_url
   - site_url
