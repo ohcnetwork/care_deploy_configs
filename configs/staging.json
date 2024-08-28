@@ -1,6 +1,6 @@
 {
     "github_url": "https://github.com/ohcnetwork",
-    "ohcnetwork": "https://ohc.network?ref=care",
+    "ohcn_url": "https://ohc.network?ref=care",
     "site_url": "care.ohc.network",
     "analytics_server_url": "https://plausible.10bedicu.in",
     "header_logo": {
