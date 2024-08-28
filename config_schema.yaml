@@ -4,7 +4,7 @@ type: object
 
 required:
   - github_url
-  - coronasafe_url
+  - ohcn_url
   - site_url
   - analytics_server_url
   - header_logo
@@ -28,7 +28,7 @@ properties:
   github_url:
     type: string
 
-  coronasafe_url:
+  ohcn_url:
     type: string
 
   site_url:
@@ -94,4 +94,3 @@ properties:
 
   jwt_token_refresh_interval:
     type: integer
-  

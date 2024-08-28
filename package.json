@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coronasafe/care_deploy_configs.git"
+    "url": "git+https://github.com/ohcnetwork/care_deploy_configs.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coronasafe/care_deploy_configs/issues"
+    "url": "https://github.com/ohcnetwork/care_deploy_configs/issues"
   },
-  "homepage": "https://github.com/coronasafe/care_deploy_configs#readme",
+  "homepage": "https://github.com/ohcnetwork/care_deploy_configs#readme",
   "precommit": "test",
   "devDependencies": {
     "chai": "^4.3.7",
