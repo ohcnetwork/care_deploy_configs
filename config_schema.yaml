@@ -94,4 +94,11 @@ properties:
 
   jwt_token_refresh_interval:
     type: integer
-  
+
+  still_watching:
+    type: object
+    properties:
+      idleTimeout:
+        type: string
+      promptDuration:
+        type: string
