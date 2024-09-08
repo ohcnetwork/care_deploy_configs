@@ -23,6 +23,6 @@
     "mocha": "^10.2.0",
     "pre-commit": "^1.2.2",
     "strip-json-comments": "^5.0.0",
-    "yaml": "^2.2.1"
+    "yaml": "^2.2.2"
   }
 }
